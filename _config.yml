@@ -61,6 +61,7 @@ medium:            '@username'
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
+messenger:          magnusbureau
 
 # Gems
 gems:
