@@ -37,17 +37,17 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              info@magnusbureau.com
 twitter:            username
 #facebook:           username
 github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          magnusbureau
+linkedin:           magnusbureau
 #xing:              username
 #instagram:          username
 #lastfm:            username
 #tumblr:            username
-medium:            '@magnusbureau'
+medium:             '@magnusbureau'
 #pinterest:         username
 #foursquare:        username
 #steam:              username
