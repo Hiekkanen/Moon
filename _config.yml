@@ -38,16 +38,21 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 email:              info@magnusbureau.com
+telegram:           magnusbureau
+facebook-messenger: magnusbureau
+phone:              +358 9 42550445
+
+
 twitter:            username
 #facebook:           username
-github-url:         username
+#github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           magnusbureau
 #xing:              username
 #instagram:          username
 #lastfm:            username
 #tumblr:            username
-medium:             '@magnusbureau'
+#medium:             '@magnusbureau'
 #pinterest:         username
 #foursquare:        username
 #steam:              username
@@ -61,8 +66,6 @@ medium:             '@magnusbureau'
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-facebook-messenger: magnusbureau
-telegram:           magnusbureau
 
 # Gems
 gems:
