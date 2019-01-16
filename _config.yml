@@ -1,7 +1,7 @@
 # Site
 title:              Moon
 bio:                'Helping you unlock opportunity.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+description:        "MAGNUS is a consulting firm that helps you succeed."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/magnuslogo.png'
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+#disqus_shortname:   taylantatli
 
 # Social
 # if you don't have any of social below, comment the line.
