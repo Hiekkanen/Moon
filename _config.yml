@@ -61,7 +61,7 @@ medium:            '@username'
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-messenger:          magnusbureau
+facebook-messenger: magnusbureau
 telegram:           magnusbureau
 
 # Gems
@@ -70,6 +70,8 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-font-awesome-sass
+
 
 jekyll-mentions:
     base_url: https://github.com
