@@ -5,54 +5,62 @@ layout: compress
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
     {% include head.html %}
 </head>
+
 <body>
     {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner">
+
+
+
+        <!-- Bootstrap container -->
         <div class="container animated fadeIn">
+
+
             <div class="row">
-                    <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}"  class="img-responsive zoombtn" >
+                <a href="{{ site.url }}">
+                    <img src="{{ site.logo }}" class="img-responsive zoombtn">
+                </a>
+
+                <h3 class="title">
+                    <a class="zoombtn" href="{{ site.url }}">
+                        <p style="font-size:1.2rem;font-weight:300">{{ site.bio }}</p>
                     </a>
+                </h3>
 
-                        <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300" >{{ site.bio }}</p>
-			            </a>
-                    </h3>
-
-
-                    <hr class="hr-line">
+                <div class="row">
 
                     <h3 class="title">
-                        <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">Contacts</p>
-			            </a>
+
+
+                        <a class="btn zoombtn " href="{{ site.url }}/projects">
+                            Services
+                        </a>
+
+                        <a class="btn zoombtn" href="{{ site.url }}/posts">
+                            Blog
+                        </a>
+
+                        <a class="btn zoombtn" href="{{ site.url }}/about">
+                            Who we are
+                        </a>
+
                     </h3>
+                </div>
 
+                {% include social-links.html %}
 
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Services
-                         </a>
-
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
-                         Blog
-                         </a>
-
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
-                         Who we are
-                         </a>
-                 </h3>
             </div>
         </div>
     </header>
     {% include scripts.html %}
 </body>
+
 </html>
