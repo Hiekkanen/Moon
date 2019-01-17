@@ -79,5 +79,12 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
+
+jekyll_get:
+  data: pena
+  json: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40magnusbureau'
+  cache: true
+
+
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]

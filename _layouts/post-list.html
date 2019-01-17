@@ -25,11 +25,31 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
+                <!--
 
+                <div class="post-list">
+
+
+                  {% for i in pena %}
+                   {% for items in i.json.parse.items %}
+                  {% endfor %}
+                  {% endfor %}
+
+
+
+
+                    {% for i in site.data.pena %}
+
+                    <p>Title:  {{pena.items[1].title}}</p>
+                    {% endfor %}
+
+                    -->
+                </div>
 
                 <div class="post-list">
                     {% for post in site.posts %}
                     {% if post.project == null %}
+
                     <blockquote class="embedly-card">
                         <h4><a href="{{ post.medium }}">{{ post.title }}</a></h4>
                         <p>{{ post.excerpt }}</p>
